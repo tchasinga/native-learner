@@ -4,6 +4,7 @@ import { Button, Linking, StyleSheet, Text, View } from 'react-native';
 export default function App() {
   
   const [myName, setMynamer] = useState("Iwaju")
+  const [Items, setItems]
 
   const InhandlerChanges =() =>{
     setMynamer("Asiwaju")
