@@ -1,14 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, Linking, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-      <View>
-          <Text>New code is added now...</Text>
-      </View>
+         <Text style={styles.text}>Please see my video</Text>
+         <Button  title='Go there now' onPress={()=>{Linking.openURL('https://www.youtube.com/watch?v=kG68cdAC_Do&list=RDkG68cdAC_Do&start_radio=1')}}>
+         </Button>
     </View>
   );
 }
@@ -20,4 +17,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  text:{
+   fontSize : 20,
+   fontStyle: 'normal'
+  }
 });
