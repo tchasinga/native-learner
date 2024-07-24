@@ -24,6 +24,10 @@ export default function App() {
     <View style={styles.container}>
          <Text style={styles.text}>Your new name is {myName}</Text>
          <Button title='update data' onPress={InhandlerChanges}></Button>
+
+         <View>
+            <Text></Text>
+         </View>
     </View>
   );
 }
@@ -37,6 +41,7 @@ const styles = StyleSheet.create({
   },
   text:{
    fontSize : 20,
-   fontStyle: 'normal'
+   fontStyle: 'normal',
+   fontWeight: '900'
   }
 });
