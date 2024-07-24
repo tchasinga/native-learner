@@ -1,0 +1,2 @@
+         <Button  title='Go there now' onPress={()=>{Linking.openURL('https://www.youtube.com/watch?v=kG68cdAC_Do&list=RDkG68cdAC_Do&start_radio=1')}}>
+         </Button>
