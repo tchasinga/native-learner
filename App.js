@@ -4,8 +4,7 @@ export default function App() {
   return (
     <View style={styles.container}>
          <Text style={styles.text}>Please see my video</Text>
-         <Button  title='Go there now' onPress={()=>{Linking.openURL('https://www.youtube.com/watch?v=kG68cdAC_Do&list=RDkG68cdAC_Do&start_radio=1')}}>
-         </Button>
+
     </View>
   );
 }
