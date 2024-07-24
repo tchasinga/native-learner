@@ -1,10 +1,18 @@
+import React, {useState} from 'react';
 import { Button, Linking, StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+  
+  const [myName, setMynamer] = useState("Iwaju")
+
+  const InhandlerChanges =() =>{
+    setMynamer("Asiwaju")
+  }
+
   return (
     <View style={styles.container}>
-         <Text style={styles.text}>Please see my video</Text>
-
+         <Text style={styles.text}>Your new name is {myName}</Text>
+         <Button title='update data' onPress={InhandlerChanges}></Button>
     </View>
   );
 }
