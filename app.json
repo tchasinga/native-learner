@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/ic_launcher.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.tchasinga.nativelearner"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +32,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f9cd224c-f1c9-453b-a827-70c62281cfa9"
+      }
     }
   }
 }
